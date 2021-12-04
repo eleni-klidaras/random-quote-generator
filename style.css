@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Rock Salt";
+}
+
+body {
+  font-family: "";
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin: 200px auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  height: 150px;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-items: center;
+}
+
+#author {
+  float: right;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  margin-top: 50px;
+  align-self: center;
+  border: 2px solid black;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-family: "Arial";
+}
+
+.btn:hover {
+  background-color: lightcoral;
+}
+
+.tweet {
+  text-align: center;
+  background-color: #1da1f2;
+  border: none !important;
+  color: white;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.tweet:hover {
+  background-color: #1da1f9;
+}
